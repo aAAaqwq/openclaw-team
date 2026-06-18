@@ -9,7 +9,7 @@
 # 对标：亚马逊6-Pager思路 — 数据优先，结构化为王
 # =============================================================================
 
-WORKSPACE="/Users/peterqiu/.openclaw/workspace/tianshu"
+WORKSPACE="/home/openclaw/.openclaw/workspace/tianshu"
 DATE=$(date +%Y-%m-%d)
 OUTPUT="${WORKSPACE}/archive/reports/battle-report-${DATE}.md"
 

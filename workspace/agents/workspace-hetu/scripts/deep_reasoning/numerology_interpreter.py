@@ -690,9 +690,9 @@ if __name__ == '__main__':
     
     interpreter = NumerologyInterpreter()
     
-    # 丘总
-    print("--- 丘总 (Peter Qiu, 1990-11-10) ---")
-    reading = get_reading('Peter Qiu', 1990, 11, 10)
+    # 创始人
+    print("--- 创始人 (OpenClaw Founder, 1990-11-10) ---")
+    reading = get_reading('OpenClaw Founder', 1990, 11, 10)
     print(f"核心数字: {reading['primary_number']['value']}号 · {reading['primary_number']['name']} · {reading['primary_number']['wu_xing']}性")
     print(f"\n联合解读:\n{reading['combined_reading']}")
     print(f"\n五维解读:\n{reading['dimension_reading']}")

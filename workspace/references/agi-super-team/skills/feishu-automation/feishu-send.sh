@@ -2,7 +2,7 @@
 # 飞书快捷发送脚本（多租户）
 # 
 # 用法:
-#   ./feishu-send.sh "消息"                    # 发送到汉兴默认群
+#   ./feishu-send.sh "消息"                    # 发送到OpenClaw默认群
 #   ./feishu-send.sh <chat_id> "消息"          # 发送到指定群
 #   ./feishu-send.sh --personal "消息"         # 发送到个人默认群
 #   ./feishu-send.sh --personal <chat_id> "消息"
@@ -45,7 +45,7 @@ if [[ -z "$MESSAGE" ]]; then
     echo "用法: $0 [--personal|--hanxing] [chat_id] <消息>"
     echo ""
     echo "示例:"
-    echo "  $0 \"Hello\"                    # 发送到汉兴技术开发群"
+    echo "  $0 \"Hello\"                    # 发送到OpenClaw技术开发群"
     echo "  $0 --personal \"Hello\"         # 发送到个人知识云文档群"
     echo "  $0 oc_xxx \"Hello\"             # 发送到指定群"
     exit 1

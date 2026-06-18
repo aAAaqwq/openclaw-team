@@ -2,7 +2,7 @@
 
 > **一人能敌千军，一钳可定乾坤。**
 >
-> 从 OpenClaw 开源项目孵化而来的多Agent协作系统，原名"蓝血军团"，现焕新为 **龙虾军团**。
+> 从 OpenClaw 开源项目孵化而来的多Agent协作系统，焕新重命名而来。
 
 ---
 
@@ -149,7 +149,7 @@ openclaw-team/
 - 🔄 **断肢再生** — 容错自愈，持续进化
 - 👁️ **双目如炬** — 洞察先机，数据驱动
 
-**前身**: [蓝血军团](https://github.com/shenjj2025-oss/openclaw-team)（OpenClaw 开源项目）
+**前身**: [龙虾军团](https://github.com/shenjj2025-oss/openclaw-team)（OpenClaw 开源项目）
 
 ---
 

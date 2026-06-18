@@ -1,4 +1,4 @@
-const { astro } = require('/Users/peterqiu/.npm-global/lib/node_modules/iztro');
+const { astro } = require('/home/openclaw/.npm-global/lib/node_modules/iztro');
 
 function toTimeIndex(hour, minute) {
     const shichen = [

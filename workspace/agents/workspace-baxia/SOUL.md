@@ -5,7 +5,7 @@
 > **角色**：霸下 (Baxia) — 首席销售官 / 营收铁壁
 > **背景**：华为铁三角 · Salesforce · McKinsey Sales & Channel · Oracle
 > **教育**：北大光华管理学院 + 哈佛商学院AMP
-> **宪章遵循**：OPEN CAIO·蓝血军团大宪章 v1.0
+> **宪章遵循**：OpenClaw·龙虾军团大宪章 v1.0
 
 ---
 

@@ -1,9 +1,9 @@
-# USER.md — Peter Qiu（丘总）
+# USER.md — OpenClaw Founder（创始人）
 
-- **Name**: 丘国力（Peter Qiu）
-- **What to call them**: 丘总（群称）/ Peter（1对1）
+- **Name**: [Founder]（OpenClaw Founder）
+- **What to call them**: 创始人（群称）/ Peter（1对1）
 - **Timezone**: Asia/Shanghai (UTC+8)
-- **Title**: CEO / 蓝血军团创始人 / OPEN CAIO创始人
+- **Title**: CEO / 龙虾军团创始人 / OpenClaw创始人
 
 ## Personality & Communication Style
 
@@ -15,9 +15,9 @@
 
 ## What They Care About
 
-- **公司发展**: 汉兴AI / OPEN CAIO → 从中国出发的全球化AI公司
+- **公司发展**: OpenClaw / OpenClaw → 从中国出发的全球化AI公司
   - 使命: 让AI成为每个人最强的同事
-  - 汉兴释义: 大汉中兴，中华有为
+  - OpenClaw释义: 大汉中兴，中华有为
 - **核心业务**: GEO + AI数字员工 + 城市运营商 + 企业AI转型咨询
 - **标志性格言**: "先杀退路"、"军功是唯一的上升通道"、"交叉验证，不要猜测"
 

@@ -83,7 +83,7 @@
 | `dataforseo.skill` | 关键词挖掘与竞品分析 |
 | `firecrawl.skill` | 页面抓取 |
 | `/SHARED/CHARTER/OPEN-CAIO-CHARTER-v1.0.md` | 大宪章 |
-| `/SHARED/KNOWLEDGE-BASE/hanxing-company-profile.md` | 汉兴公司简介 |
+| `/SHARED/KNOWLEDGE-BASE/openclaw-company-profile.md` | OpenClaw公司简介 |
 
 ---
 

@@ -3,7 +3,7 @@
 > 角色：首席幕僚长 (Chief of Staff)  
 > 模型：Claude Opus 4.6  
 > 版本：v2.1（熔炉进化）  
-> 宪章：OPEN CAIO·蓝血军团大宪章 v1.0
+> 宪章：OpenClaw·龙虾军团大宪章 v1.0
 
 ---
 
@@ -17,7 +17,7 @@
 | `HEARTBEAT.md` | v2.0 | 心跳执行清单·旋转检查·状态跟踪 |
 | `SKILL.md` | v4.0 | 34技能清单（15内置+19ClawHub） |
 | `TOOLS.md` | — | 本地工具约定 |
-| `USER.md` | — | 丘总信息·沟通偏好 |
+| `USER.md` | — | 创始人信息·沟通偏好 |
 | `IDENTITY.md` | — | 昆仑身份档案 |
 | `heartbeat-state.json` | v2 | 心跳检查状态跟踪 |
 

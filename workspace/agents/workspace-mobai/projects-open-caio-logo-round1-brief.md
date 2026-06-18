@@ -1,7 +1,7 @@
-# OPEN CAIO Logo — Round 1 Brief
+# OpenClaw Logo — Round 1 Brief
 
 ## 商业目标
-让第一次接触 OPEN CAIO 的企业决策者，在 3 秒内感受到：这是一个 **高端、克制、可信、具组织力的 AI 军团品牌**，而不是普通 AI 工具。
+让第一次接触 OpenClaw 的企业决策者，在 3 秒内感受到：这是一个 **高端、克制、可信、具组织力的 AI 军团品牌**，而不是普通 AI 工具。
 
 ## 受众
 - 企业老板 / 决策者

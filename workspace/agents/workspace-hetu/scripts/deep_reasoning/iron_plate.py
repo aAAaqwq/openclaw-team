@@ -403,7 +403,7 @@ def iron_plate_report(bazi_str: str, ri_zhu: str, yong_shen: str, ji_shen: str,
 
 
 if __name__ == "__main__":
-    # 丘总八字测试
+    # 创始人八字测试
     bazi = "庚午 丁亥 己卯 己巳"
     pillars = {"年柱": "庚午", "月柱": "丁亥", "日柱": "己卯", "时柱": "己巳"}
     print(iron_plate_report(bazi, "己", "火", "水", pillars, "男", 10, 0))

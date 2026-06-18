@@ -249,9 +249,9 @@ def get_all_scores(birth_data: Optional[Dict] = None,
 if __name__ == '__main__':
     print("=== 数字能量评分引擎 v2.0 — 测试 ===\n")
     
-    # 丘总
-    print("--- 丘总 (Peter Qiu, 1990-11-10) ---")
-    s, d = get_all_scores(full_name='Peter Qiu', year=1990, month=11, day=10)
+    # 创始人
+    print("--- 创始人 (OpenClaw Founder, 1990-11-10) ---")
+    s, d = get_all_scores(full_name='OpenClaw Founder', year=1990, month=11, day=10)
     for dim, score in s.items():
         print(f"  {dim}: {score}/10")
     print(f"  Life Path={d['life_path_info']['value']} 五行={d['life_path_info']['wu_xing']} 性格={d['life_path_info']['persona']}")

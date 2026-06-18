@@ -55,7 +55,7 @@
 
 ## 二，AI基础设施 (AI Infrastructure) — 5 skills
 
-> 直接支撑OPEN CAIO核心竞争力——大模型训练、推理加速、Agent框架
+> 直接支撑OpenClaw核心竞争力——大模型训练、推理加速、Agent框架
 
 | # | Skill | 文件路径 | 场景 |
 |---|-------|---------|------|
@@ -190,12 +190,12 @@
 
 轩辕每次启动时：
 1. 阅读本SKILL.md（~100行）— 了解完整的技能体系
-2. 根据天枢/丘总的具体需求，按分类索引找到对应skill
+2. 根据天枢/创始人的具体需求，按分类索引找到对应skill
 3. 只读取当前需要的具体skill文件
 4. 执行完毕后释放上下文
 
 ```
-丘总："把PRD中的用户系统做出来"
+创始人："把PRD中的用户系统做出来"
 → 读 SKILL.md → 找到 architecture/distributed-systems.md
    + engineering/fullstack-master.md + tools/coding-agent.md
 → 调用AI集群并行开发

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 飞书多租户 API 工具包
-支持：个人应用 + 汉兴企业应用
+支持：个人应用 + OpenClaw企业应用
 """
 
 import os
@@ -20,14 +20,14 @@ TENANTS = {
         "default_chat": "oc_356d77ff689d91280b4d33befb0eccb8",  # 知识云文档
     },
     "hanxing": {
-        "name": "汉兴企业",
-        "app_id": "REDACTED_FEISHU_HANXING_APP_ID",
-        "app_secret": "REDACTED_FEISHU_HANXING_SECRET",
+        "name": "OpenClaw企业",
+        "app_id": "REDACTED_FEISHU_OPENCLAW_APP_ID",
+        "app_secret": "REDACTED_FEISHU_OPENCLAW_SECRET",
         "default_chat": "oc_e92f9edcb7d078c9853d09ce844c15af",  # 技术开发群
     }
 }
 
-DEFAULT_TENANT = "hanxing"  # 默认使用汉兴企业
+DEFAULT_TENANT = "hanxing"  # 默认使用OpenClaw企业
 
 class FeishuClient:
     """飞书 API 客户端"""
@@ -237,7 +237,7 @@ if __name__ == "__main__":
 
 租户:
   personal  - 个人应用 (REDACTED...)
-  hanxing   - 汉兴企业 (REDACTED...) [默认]
+  hanxing   - OpenClaw企业 (REDACTED...) [默认]
 
 命令:
   test                         # 测试连接

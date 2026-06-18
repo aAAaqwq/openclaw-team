@@ -55,7 +55,7 @@
 
 ## 状态文件
 
-`/Users/peterqiu/.openclaw/agents/zhulong/`（框架自动管理）
+`/home/openclaw/.openclaw/agents/zhulong/`（框架自动管理）
 
 ---
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 # ==========================================
-# OPEN CAIO 军团角色批量生成器 v1.0
+# OpenClaw 军团角色批量生成器 v1.0
 # 使用方式: bash scripts/generate-legion.sh
 # ==========================================
 
@@ -13,7 +13,7 @@ TEMPLATE="$WORKSPACE_DIR/templates/SOUL.md.template"
 OUT_BASE="$WORKSPACE_DIR/agents"
 
 echo "=========================================="
-echo "🚀 OPEN CAIO 军团角色生成器"
+echo "🚀 OpenClaw 军团角色生成器"
 echo "=========================================="
 
 if [[ ! -f "$TEMPLATE" ]]; then

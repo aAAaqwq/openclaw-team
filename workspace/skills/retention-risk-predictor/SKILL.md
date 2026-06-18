@@ -135,7 +135,7 @@ RETENTION_MEASURES = {
         "growth": ["晋升机会", "学习预算增加", "新项目授权"],
         "recognition": ["公开表彰", "额外奖金", "股权加速归属"],
         "environment": ["工作安排调整", "团队重组", "汇报线优化"],
-        "relationship": ["1-on-1加深对话", "丘总直接沟通", "俱乐部活动参与"]
+        "relationship": ["1-on-1加深对话", "创始人直接沟通", "俱乐部活动参与"]
     },
     "silicon_measures": {
         "compute": ["算力配额增加", "优先训练权", "新能力解锁"],
@@ -189,7 +189,7 @@ top_risk_factors:
 retention_recommendations:
   priority: "P0"
   measures:
-    - "立即安排与丘总1-on-1对话（使命感重燃）"
+    - "立即安排与创始人1-on-1对话（使命感重燃）"
     - "提供独立负责新项目机会（成长需求）"
     - "加速下一轮晋升评审（3个月内）"
     - "增加AI副官使用权限（稀缺资源激励）"

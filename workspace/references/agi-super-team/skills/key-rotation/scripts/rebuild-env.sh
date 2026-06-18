@@ -41,8 +41,8 @@ declare -A KEY_MAP=(
     ["GITHUB_COPILOT_AGENTS_KEY"]="api/github-copilot-agents"
     
     # Feishu
-    ["FEISHU_HANXING_APPID"]="api/feishu-hanxing-appid"
-    ["FEISHU_HANXING_SECRET"]="api/feishu-hanxing"
+    ["FEISHU_OPENCLAW_APPID"]="api/feishu-hanxing-appid"
+    ["FEISHU_OPENCLAW_SECRET"]="api/feishu-hanxing"
     ["FEISHU_PERSONAL_APPID"]="api/feishu-personal-appid"
     ["FEISHU_PERSONAL_SECRET"]="api/feishu-personal"
     

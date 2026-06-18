@@ -499,7 +499,7 @@ def wild_crane_divination(question: str, seed: Optional[int] = None,
 
 
 if __name__ == "__main__":
-    # 测试：为丘总占一卦
+    # 测试：为创始人占一卦
     print(wild_crane_divination("财运", seed=19901110, month=5, day=4))
     print()
     print(wild_crane_divination("婚姻", seed=19901110, month=5, day=4))

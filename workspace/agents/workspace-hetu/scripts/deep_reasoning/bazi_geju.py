@@ -788,12 +788,12 @@ def _print_result(title: str, geju_result: Dict[str, Any]) -> None:
 
 
 if __name__ == "__main__":
-    # 任务指定测试：丘总八字（庚午 丁亥 己卯 己巳）
+    # 任务指定测试：创始人八字（庚午 丁亥 己卯 己巳）
     if ENGINE_AVAILABLE:
         try:
             sample = paipan_v2(1990, 11, 10, 10, "男", 2026)
             result = analyze_geju(sample)
-            _print_result("丘总测试（庚午 丁亥 己卯 己巳）", result)
+            _print_result("创始人测试（庚午 丁亥 己卯 己巳）", result)
         except Exception as e:
             print(f"❌ 引擎调用失败: {e}")
     else:
@@ -809,4 +809,4 @@ if __name__ == "__main__":
             "日主分析": {"總評分": 50, "綜合判斷": "中和"},
         }
         result = analyze_geju(sample)
-        _print_result("丘总测试（兜底样本）", result)
+        _print_result("创始人测试（兜底样本）", result)

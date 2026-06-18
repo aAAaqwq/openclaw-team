@@ -24,7 +24,7 @@ metadata:
 | 主机名 | Tailscale IP | 用户名 | 用途 |
 |--------|-------------|--------|------|
 | 小m (Mac Mini M2) | 动态 | danielli | Daniel 的 Mac Mini |
-| Peter's Mac Mini | 100.118.109.75 | peterqiu | Peter 团队 |
+| Peter's Mac Mini | 100.118.109.75 | openclaw-founder | Peter 团队 |
 | daniel-ubuntu | 100.112.88.20 | aa | 本机（Ubuntu） |
 
 > ⚠️ 注意：Tailscale IP 可能会变化，应该动态获取

@@ -1,4 +1,4 @@
-# 蓝血军团群聊响应修复方案
+# 龙虾军团群聊响应修复方案
 
 ## 问题诊断
 
@@ -28,7 +28,7 @@ OpenClaw agent 在群聊中收到 @mention 后，默认的 final answer 是**私
 
 ### 方案 B：修改每个 agent 的 config
 
-在每个 agent 的 config 中添加 authorized_senders 含丘总 ID：
+在每个 agent 的 config 中添加 authorized_senders 含创始人 ID：
 
 ```yaml
 # 在 ~/.openclaw/config.yaml 的每个 agent 条目中添加

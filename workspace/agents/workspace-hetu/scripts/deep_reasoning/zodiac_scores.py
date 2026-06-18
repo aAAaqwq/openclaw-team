@@ -461,8 +461,8 @@ def _fallback_sun_sign(year: int, month: int, day: int,
 if __name__ == '__main__':
     print("=== 星座评分引擎 v2.0 — 测试 ===\n")
     
-    # 丘总
-    print("--- 丘总 (1990-11-10 10:00) ---")
+    # 创始人
+    print("--- 创始人 (1990-11-10 10:00) ---")
     s, d = get_all_scores(year=1990, month=11, day=10,
                            hour=10, minute=0,
                            lng=113.0, lat=24.5,
@@ -490,7 +490,7 @@ if __name__ == '__main__':
         print(f"  上升: {raw2.get('ascendant_sign', '?')}")
     
     # 合盘
-    print("\n--- 合盘兼容性 (丘总 vs 伴侣) ---")
+    print("\n--- 合盘兼容性 (创始人 vs 伴侣) ---")
     syn = get_synastry_scores(
         {'year':1990,'month':11,'day':10,'hour':10,'minute':0,'lng':113.0,'lat':24.5,'tz_str':'Asia/Shanghai'},
         {'year':1993,'month':5,'day':3,'hour':10,'minute':0,'lng':113.0,'lat':24.5,'tz_str':'Asia/Shanghai'}

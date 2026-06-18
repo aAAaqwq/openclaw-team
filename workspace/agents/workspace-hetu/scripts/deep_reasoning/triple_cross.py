@@ -867,10 +867,10 @@ def cross_validate_report(person_name: str, year: int, month: int, day: int,
 if __name__ == "__main__":
     print("═══ 河图六合交叉验证引擎 v1.2 (高阶版) ═══\n")
 
-    # 测试1：丘总
-    print("【测试1：丘总 (1990-11-10 10时)】")
-    r1 = cross_validate_report("丘总", 1990, 11, 10, 10, "男")
+    # 测试1：创始人
+    print("【测试1：创始人 (1990-11-10 10时)】")
+    r1 = cross_validate_report("创始人", 1990, 11, 10, 10, "男")
     print(r1)
     print()
 
-    # 测试2：丘总伴侣
+    # 测试2：创始人伴侣

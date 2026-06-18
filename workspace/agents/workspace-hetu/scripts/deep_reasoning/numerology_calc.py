@@ -685,15 +685,15 @@ if __name__ == '__main__':
     print("\n--- v2.0 新特性 ---")
     
     # 五行映射
-    r = calc.get_full_report('Peter Qiu', 1990, 11, 10)
-    print(f"丘总 Life Path={r['life_path']['value']} 五行={r['life_path']['wu_xing']} 性格={r['life_path']['persona']}")
+    r = calc.get_full_report('OpenClaw Founder', 1990, 11, 10)
+    print(f"创始人 Life Path={r['life_path']['value']} 五行={r['life_path']['wu_xing']} 性格={r['life_path']['persona']}")
     
     # 成熟数
     print(f"成熟数: {r['maturity_number']['value']} ({r['maturity_number']['meaning']})")
     
     # 兼容性匹配
     compat = calc.get_compatibility(
-        'Peter Qiu', 1990, 11, 10,
+        'OpenClaw Founder', 1990, 11, 10,
         'Jane Doe', 1993, 5, 3
     )
     print(f"\n兼容性测试: 总分={compat['overall_score']}")

@@ -21,7 +21,7 @@
  * 
  * @version 1.0.0
  * @license MIT
- * @author 凤凰 (Fenghuang CCO) @ OPEN CAIO
+ * @author 凤凰 (Fenghuang CCO) @ OpenClaw
  */
 
 // ===== 配置 =====

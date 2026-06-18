@@ -8,7 +8,7 @@
 # 对标：自动化BI看板刷新
 # =============================================================================
 
-WORKSPACE="/Users/peterqiu/.openclaw/workspace/tianshu"
+WORKSPACE="/home/openclaw/.openclaw/workspace/tianshu"
 DATE=$(date +%Y-%m-%d)
 DASHBOARD="${WORKSPACE}/DASHBOARD.md"
 

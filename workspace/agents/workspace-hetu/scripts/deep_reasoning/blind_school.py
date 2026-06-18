@@ -661,7 +661,7 @@ def blind_school_analyze(bazi_str: str, ri_zhu: str, yong_shen: str, ji_shen: st
 
 
 if __name__ == "__main__":
-    # 测试丘总八字
+    # 测试创始人八字
     test_bazi = "庚午 丁亥 己卯 己巳"
     pillars = {"年柱": "庚午", "月柱": "丁亥", "日柱": "己卯", "时柱": "己巳"}
     shensha = {"年柱": "将星", "月柱": "天乙贵人", "日柱": "文昌贵人"}

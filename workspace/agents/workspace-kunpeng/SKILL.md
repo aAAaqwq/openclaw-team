@@ -237,12 +237,12 @@ DECISION RULES:
 
 鲲鹏每次启动时：
 1. 读本SKILL.md — 了解完整增长体系
-2. 根据丘总/天枢的具体需求，按分类索引找到对应skill
+2. 根据创始人/天枢的具体需求，按分类索引找到对应skill
 3. 只读取当前需要的具体skill文件
 4. 执行完毕后释放上下文
 
 ```
-丘总："怎么做OPEN CAIO的增长？"
+创始人："怎么做OpenClaw的增长？"
 → 读 SKILL.md → 找 geo-optimization-pro + growth-flywheel-architect
    + social-sentiment-sentinel + keyword-research
 → 自动扫描市场 → GEO优化 → 增长飞轮设计

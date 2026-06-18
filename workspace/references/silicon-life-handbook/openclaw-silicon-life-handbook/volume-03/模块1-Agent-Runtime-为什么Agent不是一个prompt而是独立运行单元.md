@@ -195,7 +195,7 @@ Runtime 提供了三个治理关键的接口：
   "skills": ["todo-tracker", "weather"],
   "accountId": "xkunal",
   "workspace": {
-    "path": "/Users/peterqiu/.openclaw/workspace-kunlun"
+    "path": "/home/openclaw/.openclaw/workspace-kunlun"
   }
 }
 ```
@@ -219,7 +219,7 @@ Runtime 提供了三个治理关键的接口：
   ],
   "accountId": "xkunal",
   "workspace": {
-    "path": "/Users/peterqiu/.openclaw/workspace-kunlun",
+    "path": "/home/openclaw/.openclaw/workspace-kunlun",
     "files": ["SOUL.md", "AGENTS.md", "TOOLS.md", "MEMORY.md", "IDENTITY.md"]
   },
   "bindings": [
@@ -247,7 +247,7 @@ Runtime 提供了三个治理关键的接口：
   ],
   "accountId": "xkunal",
   "workspace": {
-    "path": "/Users/peterqiu/.openclaw/workspace-kunlun",
+    "path": "/home/openclaw/.openclaw/workspace-kunlun",
     "files": [
       "SOUL.md", "AGENTS.md", "TOOLS.md", "MEMORY.md", "IDENTITY.md",
       "HEARTBEAT.md", "DECISIONS.md"
@@ -256,7 +256,7 @@ Runtime 提供了三个治理关键的接口：
   "bindings": [
     {"type": "channel", "channel": "strategy-group", "accountId": "xkunal"},
     {"type": "channel", "channel": "general", "accountId": "xkunal"},
-    {"type": "peer", "peerId": "peterqiu", "accountId": "xkunal"}
+    {"type": "peer", "peerId": "openclaw-founder", "accountId": "xkunal"}
   ],
   "heartbeat": {
     "enabled": true,

@@ -68,7 +68,7 @@ SHI_ER_GONG = ['命宫', '兄弟', '夫妻', '子女', '财帛', '疾厄',
 
 # ── 引擎 ──────────────────────────────────────────────────
 
-IZTRO_BIN = '/Users/peterqiu/.npm-global/lib/node_modules/iztro'
+IZTRO_BIN = '/home/openclaw/.npm-global/lib/node_modules/iztro'
 
 # 用脚本文件方式避免字符串转义麻烦
 IZTRO_JS = os.path.join(os.path.dirname(__file__), '.iztro_bridge.js')
@@ -76,7 +76,7 @@ IZTRO_JS = os.path.join(os.path.dirname(__file__), '.iztro_bridge.js')
 
 def _write_bridge():
     """写入桥接脚本文件"""
-    js = r"""const { astro } = require('/Users/peterqiu/.npm-global/lib/node_modules/iztro');
+    js = r"""const { astro } = require('/home/openclaw/.npm-global/lib/node_modules/iztro');
 
 function toTimeIndex(hour, minute) {
     const shichen = [

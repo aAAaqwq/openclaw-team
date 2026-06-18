@@ -477,7 +477,7 @@ class NegotiationPlaybook:
         elif "成长" in key_drivers:
             return {
                 "approach": "成长驱动开场",
-                "script": "在这里你将直接向丘总汇报，独立负责战略级项目——这种level的ownership在其他地方需要5-10年...",
+                "script": "在这里你将直接向创始人汇报，独立负责战略级项目——这种level的ownership在其他地方需要5-10年...",
                 "timing": "前5分钟谈成长空间，不谈薪酬"
             }
         else:
@@ -498,7 +498,7 @@ class NegotiationPlaybook:
             objections.append({
                 "objection": "我已经管理团队了，你们能给我多大的团队？",
                 "root_cause": "对职级和影响力的担忧",
-                "response": "我们采取的是硅碳混合模式，你有轩辕的Agent团队支持，同时直接向丘总汇报。这种模式比传统管理更高效..."
+                "response": "我们采取的是硅碳混合模式，你有轩辕的Agent团队支持，同时直接向创始人汇报。这种模式比传统管理更高效..."
             })
 
         objections.append({
@@ -593,7 +593,7 @@ class NegotiationPlaybook:
             },
             "如果候选人要求超过底线": """
                 Step 1: 重新评估候选人价值（是否值得突破）
-                Step 2: 如果值得，向上级（丘总）申请例外审批
+                Step 2: 如果值得，向上级（创始人）申请例外审批
                 Step 3: 如果不值得，礼貌结束谈判，保持关系
             """,
             "关键信号": [
@@ -626,7 +626,7 @@ class CompetitiveCounterStrategy:
             "weakness": "高强度内卷、层级政治、创新受限",
             "counter_narrative": {
                 "薪酬": "我们可以match，同时给你更多自主权和AI副官",
-                "成长": "我们的成长不看层级，看实际贡献——你直接向丘总汇报",
+                "成长": "我们的成长不看层级，看实际贡献——你直接向创始人汇报",
                 "使命": "字节做的是优化，我们做的是重新定义——这是两种不同的野心"
             }
         },

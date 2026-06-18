@@ -477,7 +477,7 @@ echo "原始数据: ${OUTPUT_DIR}/consolidated_talents.json"
 <!DOCTYPE html>
 <html>
 <head>
-    <title>蓝血军团 Talent Radar - {{quarter}}</title>
+    <title>龙虾军团 Talent Radar - {{quarter}}</title>
     <style>
         .tier-s { background: #FFD700; font-weight: bold; }
         .tier-a { background: #C0C0C0; }

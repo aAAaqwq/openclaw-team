@@ -374,7 +374,7 @@ bindings:
   - type: "channel"
     channel: "strategy-group"
   - type: "peer"
-    peerId: "peterqiu"
+    peerId: "openclaw-founder"
 ```
 
 ---

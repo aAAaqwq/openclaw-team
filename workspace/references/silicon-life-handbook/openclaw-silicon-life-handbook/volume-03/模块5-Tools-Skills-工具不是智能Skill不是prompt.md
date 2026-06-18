@@ -65,7 +65,7 @@
 - [17）Skill Ops：版本、测试、验收、分发、淘汰、审计](#17skill-ops版本测试验收分发淘汰审计)
 - [18）为什么很多团队写了很多 Skill 效果还是差](#18为什么很多团队写了很多-skill-效果还是差)
 - [19）从单个 Skill 到 Skill Library，再到 Skill Platform](#19从单个-skill-到-skill-library再到-skill-platform)
-- [20）适合 OPEN CAIO 的 Skill 体系架构](#20适合-open-caio-的-skill-体系架构)
+- [20）适合 OpenClaw 的 Skill 体系架构](#20适合-open-caio-的-skill-体系架构)
 - [21）Skill 成熟度模型：L0 到 L5](#21skill-成熟度模型l0-到-l5)
 - [22）推荐深挖的教程 / 课程 / GitHub 文档清单](#22推荐深挖的教程--课程--github-文档清单)
 - [23）模块5训练模板 / 检查清单 / 验收口径](#23模块5训练模板--检查清单--验收口径)
@@ -865,7 +865,7 @@ Skill 的分发应分层：
 
 ---
 
-## 20）适合 OPEN CAIO 的 Skill 体系架构
+## 20）适合 OpenClaw 的 Skill 体系架构
 对于你这种军团化、多 Agent、强业务线、多治理需求的体系，最合理的 Skill 架构不是随便堆，而是四层。
 
 ### 20.1 通用基础层

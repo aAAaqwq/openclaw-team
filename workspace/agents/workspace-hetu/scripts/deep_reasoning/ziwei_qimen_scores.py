@@ -467,7 +467,7 @@ def get_qimen_scores(year: int, month: int, day: int,
 if __name__ == "__main__":
     import json
     
-    print("═══ 紫微维度测试：丘总 ═══")
+    print("═══ 紫微维度测试：创始人 ═══")
     print(json.dumps(get_ziwei_scores(1990, 11, 10, 10, "男"), 
                      ensure_ascii=False, indent=2))
     print()

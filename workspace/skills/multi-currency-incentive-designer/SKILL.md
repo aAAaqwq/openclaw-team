@@ -183,7 +183,7 @@ incentive_package:
     project_autonomy: "独立负责AI战略方向"
 
   差异化亮点:
-    headline: "与丘总共同定义下一个十年的AI战略"
+    headline: "与创始人共同定义下一个十年的AI战略"
 
 total_annual_value: "约¥500万（含非物质）"
 negotiation_leeway:

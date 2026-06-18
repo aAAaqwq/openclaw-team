@@ -141,7 +141,7 @@
 **封面公式**：
 ```
 「这句话治好了我的[焦虑/纠结/内耗]」
-「[名人/丘总]说：...」
+「[名人/创始人]说：...」
 ```
 
 **内页模板**：
@@ -291,7 +291,7 @@ excessive motion blur, low quality, watermark
 
 ```
 1. 选题确认 → 从6个模板中选最适配的
-2. 内容填充 → 丘总洞察/humanizer润色
+2. 内容填充 → 创始人洞察/humanizer润色
 3. Prompt生成 → 用对应模板的image generation prompt
 4. 文生图 → image_generate工具
 5. 排版校验 → 上传到Canva/FigJam对比模板结构

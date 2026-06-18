@@ -43,7 +43,7 @@
 - [18）Skill Ops：版本、回放、发布、淘汰、审计](#18skill-ops版本回放发布淘汰审计)
 - [19）为什么“写了很多 Skill 还是不强”](#19为什么写了很多-skill-还是不强)
 - [20）面向军团的 Skill Platform 架构](#20面向军团的-skill-platform-架构)
-- [21）适合 OPEN CAIO 的 Skill 分层体系](#21适合-open-caio-的-skill-分层体系)
+- [21）适合 OpenClaw 的 Skill 分层体系](#21适合-open-caio-的-skill-分层体系)
 - [22）Skill 成熟度模型 L0-L5](#22skill-成熟度模型-l0-l5)
 - [23）标杆案例：从普通 Skill 到平台级 Skill 的分水岭](#23标杆案例从普通-skill-到平台级-skill-的分水岭)
 - [24）Skill Engineering 训练模板 / 检查清单 / 验收口径](#24skill-engineering-训练模板--检查清单--验收口径)
@@ -818,7 +818,7 @@ Skill Ops 的本质，就是：
 
 ## 20）面向军团的 Skill Platform 架构
 如果你是单 agent hobby 项目，skill 可能只是辅助功能。
-但对 OPEN CAIO 这种军团体系，skill 应该上升为平台层。
+但对 OpenClaw 这种军团体系，skill 应该上升为平台层。
 
 ### 20.1 平台层至少要回答的问题
 - 谁能写 skill？
@@ -842,7 +842,7 @@ Skill Ops 的本质，就是：
 
 ---
 
-## 21）适合 OPEN CAIO 的 Skill 分层体系
+## 21）适合 OpenClaw 的 Skill 分层体系
 建议至少四层：
 
 ### 21.1 通用基础层

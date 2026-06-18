@@ -706,8 +706,8 @@ if __name__ == '__main__':
     
     interpreter = ZodiacInterpreter()
     
-    # 丘总
-    print("--- 丘总 (1990-11-10 10:00, 广东阳山) ---")
+    # 创始人
+    print("--- 创始人 (1990-11-10 10:00, 广东阳山) ---")
     reading = get_zodiac_reading(
         year=1990, month=11, day=10,
         hour=10, minute=0,

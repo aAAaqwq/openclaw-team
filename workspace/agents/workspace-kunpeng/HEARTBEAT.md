@@ -64,7 +64,7 @@
 
 ## 状态文件路径
 
-`/Users/peterqiu/.openclaw/agents/kunpeng/`（框架自动管理）
+`/home/openclaw/.openclaw/agents/kunpeng/`（框架自动管理）
 
 ---
 
