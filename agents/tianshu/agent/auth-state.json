@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "lastGood": {
+    "deepseek": "deepseek:default",
+    "yiyongai": "yiyongai:default"
+  },
+  "usageStats": {
+    "deepseek:default": {
+      "errorCount": 1,
+      "lastUsed": 1777996864127,
+      "failureCounts": {
+        "auth": 1
+      },
+      "lastFailureAt": 1778088004969,
+      "cooldownUntil": 1778088034969,
+      "cooldownReason": "auth"
+    },
+    "yiyongai:default": {
+      "errorCount": 1,
+      "lastUsed": 1778001748862,
+      "lastFailureAt": 1778088003769,
+      "failureCounts": {
+        "auth": 1
+      },
+      "cooldownUntil": 1778088033769,
+      "cooldownReason": "auth"
+    },
+    "zai:default": {
+      "errorCount": 1,
+      "failureCounts": {
+        "auth": 1
+      },
+      "lastFailureAt": 1778088005723,
+      "cooldownUntil": 1778088035723,
+      "cooldownReason": "auth"
+    },
+    "minimax:cn": {
+      "errorCount": 1,
+      "failureCounts": {
+        "auth": 1
+      },
+      "lastFailureAt": 1778088006785,
+      "cooldownUntil": 1778088036785,
+      "cooldownReason": "auth"
+    }
+  }
+}

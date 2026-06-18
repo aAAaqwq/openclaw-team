@@ -1,0 +1,17 @@
+{
+  "priority_high": [
+    {"name": "迈瑞医疗", "industry": "医疗器械", "focus": "IVD、影像、生命信息支持"},
+    {"name": "联影医疗", "industry": "医疗器械", "focus": "高端医学影像设备"},
+    {"name": "百济神州", "industry": "创新药", "focus": "抗肿瘤药"},
+    {"name": "信达生物", "industry": "创新药", "focus": "单抗、双抗"},
+    {"name": "君实生物", "industry": "创新药", "focus": "PD-1、创新药"}
+  ],
+  "priority_normal": [
+    {"name": "再鼎医药", "industry": "创新药", "focus": "抗肿瘤、抗感染"},
+    {"name": "和黄医药", "industry": "创新药", "focus": "靶向治疗"},
+    {"name": "推想医疗", "industry": "医疗AI", "focus": "医学影像AI"},
+    {"name": "数坤科技", "industry": "医疗AI", "focus": "心血管AI"},
+    {"name": "深睿医疗", "industry": "医疗AI", "focus": "AI辅助诊断"}
+  ],
+  "priority_low": []
+}

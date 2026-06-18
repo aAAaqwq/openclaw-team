@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "lastChecks": {
+    "health_scan": "2026-05-06T15:24:00+08:00",
+    "risk_heatmap": "2026-05-06T12:54:00+08:00"
+  },
+  "cadenceMs": {
+    "health_scan": 3600000,
+    "risk_heatmap": 28800000
+  },
+  "notes": "已移除已失效的检查项: evolution_scan（工作时间段外）和 decision_log（目录空,连续无触发）",
+  "updatedAt": "2026-05-06T15:24:00+08:00"
+}

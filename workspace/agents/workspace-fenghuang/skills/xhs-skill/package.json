@@ -1,0 +1,23 @@
+{
+  "name": "xhs-skill",
+  "version": "0.1.2",
+  "private": true,
+  "type": "module",
+  "description": "Skill-first Xiaohongshu workflows (browser automation delegated to agent-browser-stealth)",
+  "bin": {
+    "xhs-skill": "./bin/xhs-skill.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "node -c src/cli.mjs && node -c bin/xhs-skill.mjs && npm run check:constraints",
+    "check:constraints": "node ./scripts/check_repo_constraints.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "jsqr": "^1.4.0",
+    "pngjs": "^7.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}

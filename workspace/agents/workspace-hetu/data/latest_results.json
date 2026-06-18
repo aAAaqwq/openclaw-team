@@ -1,0 +1,248 @@
+{
+  "total": 197,
+  "complete": 6,
+  "complete_pct": 3.0,
+  "partial": 151,
+  "partial_pct": 76.6,
+  "miss": 40,
+  "miss_pct": 20.3,
+  "accuracy_rate": 41.4,
+  "avg_fire_score": 3.53,
+  "hit_cases": [
+    {
+      "id": "HT-20260505-113",
+      "name": "毛泽东",
+      "bazi": "癸巳 甲子 丁酉 丙午",
+      "strength": "中和(60分)",
+      "yong_shen": "木、火",
+      "wuxing": {
+        "金": 2.0,
+        "木": 1.0,
+        "水": 2.5,
+        "火": 5.0,
+        "土": 1.0
+      },
+      "prediction": {
+        "occupation": "适合创业，技术/创意型",
+        "marriage": "需注意沟通，独立性强",
+        "personality": "有主见、有个性、热心、有表现力、不服输、有野心"
+      },
+      "events": "1921:创立中国共产党; 1949:建立新中国; 1966:发动文革; 1976:去世",
+      "accuracy": "complete",
+      "source": "百度百科"
+    },
+    {
+      "id": "HT-20260505-158",
+      "name": "王力宏",
+      "bazi": "丙辰 癸巳 己巳 庚午",
+      "strength": "身強(70分)",
+      "yong_shen": "金、水、木",
+      "wuxing": {
+        "金": 2.0,
+        "木": 0.5,
+        "水": 1.5,
+        "火": 5.5,
+        "土": 4.0
+      },
+      "prediction": {
+        "occupation": "适合创业，技术/创意型",
+        "marriage": "需注意沟通，独立性强",
+        "personality": "有主见、有个性、热心、有表现力、不服输、有野心"
+      },
+      "events": "1995:出道; 2004:心中的日月; 2013:结婚; 2021:离婚风波",
+      "accuracy": "complete",
+      "source": "百度百科"
+    },
+    {
+      "id": "HT-20260505-166",
+      "name": "Winston Churchill",
+      "bazi": "甲戌 乙亥 辛卯 甲午",
+      "strength": "身強(71分)",
+      "yong_shen": "水、木、火",
+      "wuxing": {
+        "金": 1.5,
+        "木": 5.0,
+        "水": 1.5,
+        "火": 2.0,
+        "土": 2.0
+      },
+      "prediction": {
+        "occupation": "适合创业，技术/创意型",
+        "marriage": "需注意沟通，独立性强",
+        "personality": "有主见、有个性、进取心强、不服输、有野心"
+      },
+      "events": "1940:战时首相; 1945:大选落败; 1951:再任首相; 1965:去世",
+      "accuracy": "complete",
+      "source": "维基百科"
+    },
+    {
+      "id": "HT-20260505-171",
+      "name": "陈光标",
+      "bazi": "戊申 己未 庚寅 壬午",
+      "strength": "身強(70分)",
+      "yong_shen": "水、木、火",
+      "wuxing": {
+        "金": 2.5,
+        "木": 2.0,
+        "水": 1.5,
+        "火": 2.5,
+        "土": 5.0
+      },
+      "prediction": {
+        "occupation": "适合创业，技术/创意型",
+        "marriage": "需注意沟通，独立性强",
+        "personality": "有主见、有个性、进取心强、不服输、有野心"
+      },
+      "events": "2003:创立黄埔再生资源; 2010:高调行善; 2015:争议不断",
+      "accuracy": "complete",
+      "source": "百度百科"
+    },
+    {
+      "id": "HT-20260505-172",
+      "name": "Abraham Lincoln",
+      "bazi": "己巳 丙寅 己未 庚午",
+      "strength": "身強(65分)",
+      "yong_shen": "金、水、木",
+      "wuxing": {
+        "金": 1.5,
+        "木": 2.0,
+        "水": 0.0,
+        "火": 5.0,
+        "土": 5.0
+      },
+      "prediction": {
+        "occupation": "适合创业，技术/创意型",
+        "marriage": "需注意沟通，独立性强",
+        "personality": "有主见、有个性、热心、有表现力、进取心强、不服输、有野心"
+      },
+      "events": "1860:总统; 1863:解放宣言; 1865:遇刺",
+      "accuracy": "complete",
+      "source": "维基百科"
+    }
+  ],
+  "miss_cases": [
+    {
+      "id": "HT-20260505-023",
+      "name": "Ludwig van Beethoven",
+      "bazi": "庚寅 戊子 癸卯 戊午",
+      "strength": "從旺(90分)",
+      "yong_shen": "木、火、土",
+      "wuxing": {
+        "金": 1.0,
+        "木": 3.0,
+        "水": 2.5,
+        "火": 2.0,
+        "土": 3.0
+      },
+      "prediction": {
+        "occupation": "适合平台/资源型创业",
+        "marriage": "需注意沟通，独立性强",
+        "personality": "进取心强、不服输、有野心"
+      },
+      "events": "1804:英雄交响曲; 1824:第九交响曲; 1827:去世",
+      "accuracy": "miss",
+      "source": "维基百科"
+    },
+    {
+      "id": "HT-20260505-024",
+      "name": "Rihanna",
+      "bazi": "戊辰 甲寅 乙巳 壬午",
+      "strength": "從旺(90分)",
+      "yong_shen": "火、土、金",
+      "wuxing": {
+        "金": 0.5,
+        "木": 4.0,
+        "水": 1.5,
+        "火": 3.5,
+        "土": 4.0
+      },
+      "prediction": {
+        "occupation": "适合平台/资源型创业",
+        "marriage": "需注意沟通，独立性强",
+        "personality": "热心、有表现力、进取心强、不服输、有野心"
+      },
+      "events": "2005:Pon de Replay; 2010:Loud; 2017:Fenty Beauty",
+      "accuracy": "miss",
+      "source": "维基百科"
+    },
+    {
+      "id": "HT-20260505-031",
+      "name": "Michael Jordan",
+      "bazi": "癸卯 甲寅 辛卯 甲午",
+      "strength": "從弱(20分)",
+      "yong_shen": "土、金",
+      "wuxing": {
+        "金": 1.0,
+        "木": 6.5,
+        "水": 1.0,
+        "火": 2.0,
+        "土": 1.0
+      },
+      "prediction": {
+        "occupation": "有管理倾向，适合带团队",
+        "marriage": "需注意沟通，独立性强",
+        "personality": "进取心强、不服输、有野心"
+      },
+      "events": "1991:首冠; 1996:72胜; 1998:再退役; 2006:山猫老板",
+      "accuracy": "miss",
+      "source": "维基百科"
+    },
+    {
+      "id": "HT-20260505-032",
+      "name": "姚明",
+      "bazi": "庚申 乙酉 戊子 戊午",
+      "strength": "身強(80分)",
+      "yong_shen": "金、水、木",
+      "wuxing": {
+        "金": 4.0,
+        "木": 1.0,
+        "水": 2.0,
+        "火": 1.5,
+        "土": 3.0
+      },
+      "prediction": {
+        "occupation": "事业有成但适合合作",
+        "marriage": "需注意沟通，独立性强",
+        "personality": "有主见、有个性、不服输、有野心"
+      },
+      "events": "2002:NBA状元; 2008:奥运会; 2011:退役; 2017:篮协主席",
+      "accuracy": "miss",
+      "source": "百度百科"
+    },
+    {
+      "id": "HT-20260505-036",
+      "name": "陈晓",
+      "bazi": "丁卯 丙午 乙卯 壬午",
+      "strength": "身強(80分)",
+      "yong_shen": "火、土、金",
+      "wuxing": {
+        "金": 0.0,
+        "木": 4.0,
+        "水": 1.0,
+        "火": 5.0,
+        "土": 1.0
+      },
+      "prediction": {
+        "occupation": "有管理倾向，适合带团队",
+        "marriage": "需注意沟通，独立性强",
+        "personality": "热心、有表现力、进取心强、不服输、有野心"
+      },
+      "events": "2013:陆贞传奇; 2016:娶陈妍希; 2022:梦华录",
+      "accuracy": "miss",
+      "source": "百度百科"
+    }
+  ],
+  "miss_reasons": {
+    "木、火、土": 4,
+    "火、土、金": 7,
+    "土、金": 5,
+    "金、水、木": 5,
+    "土、金、水": 9,
+    "火、土": 3,
+    "水、木、火": 2,
+    "水、木": 2,
+    "木、火": 2,
+    "金、水": 1
+  },
+  "timestamp": "2026-05-05 07:00"
+}

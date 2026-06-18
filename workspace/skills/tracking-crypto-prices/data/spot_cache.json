@@ -1,0 +1,36 @@
+{
+  "spot:btc:usd": {
+    "data": {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "price": 67253,
+      "currency": "USD",
+      "change_24h": 5.73218,
+      "change_7d": -1.13669,
+      "volume_24h": 47331650038,
+      "market_cap": 1339732811023,
+      "timestamp": "2026-03-01T08:16:17.353694",
+      "source": "coingecko"
+    },
+    "timestamp": 1772352977.353787,
+    "ttl": 30,
+    "key": "spot:btc:usd"
+  },
+  "spot:eth:usd": {
+    "data": {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "price": 2008.71,
+      "currency": "USD",
+      "change_24h": 8.12966,
+      "change_7d": 1.68045,
+      "volume_24h": 23247818468,
+      "market_cap": 241719437070,
+      "timestamp": "2026-03-01T08:16:19.326981",
+      "source": "coingecko"
+    },
+    "timestamp": 1772352979.327103,
+    "ttl": 30,
+    "key": "spot:eth:usd"
+  }
+}

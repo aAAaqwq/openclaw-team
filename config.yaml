@@ -1,0 +1,9 @@
+gateway:
+  mode: local
+  bind: loopback
+  port: 18789
+
+models:
+  default: deepseek/deepseek-chat
+
+# 密钥通过环境变量 OPENCLAW_SECRETS 注入，或在 openclaw.json 中配置

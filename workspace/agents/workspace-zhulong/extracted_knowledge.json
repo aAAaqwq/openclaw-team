@@ -1,0 +1,765 @@
+{
+  "meta": {
+    "title": "烛龙聊天记录知识提取全量JSON",
+    "date_range": "2026-03-14 至 2026-05-02",
+    "total_messages": 2533,
+    "peter_msgs": 466,
+    "zhulong_old_msgs": 447,
+    "extraction_time": "2026-05-04T08:40:18.638251",
+    "coverage": "A股/加密/Polymarket三大战区完整知识体系"
+  },
+  "a_stock_warzone": {
+    "section_info": "A股战区：聚宽600条策略 + 小象量化课程 + 开发体系",
+    "batch_summary": [
+      {
+        "batch": "第1批",
+        "source": "聚宽600条源码(2020-2022)",
+        "content": "趋势策略、统计套利、机器学习多因子选股、执行风控代码化",
+        "samples": 4
+      },
+      {
+        "batch": "第2批",
+        "source": "小象交易学院·量化交易入门",
+        "content": "实战型量化投资必备知识框架、技术指标基础、网格交易、回测系统",
+        "samples": 8
+      },
+      {
+        "batch": "第3批",
+        "source": "小象交易学院·量化交易进阶",
+        "content": "套利策略(转债/期权/期货配对)、海龟交易法、均值回复、宏观经济学、压力测试",
+        "samples": "大量"
+      },
+      {
+        "batch": "第4批",
+        "source": "聚宽量化源码600条",
+        "content": "执行底盘、A股短线龙头博弈、板块热度中观层、指数增强配置",
+        "samples": "多线程"
+      },
+      {
+        "batch": "第5批",
+        "source": "聚宽量化源码600条",
+        "content": "2021后小市值迭代、ETF轮动魔改、集合竞价短线、随机森林低换手率模型",
+        "samples": "多线程"
+      },
+      {
+        "batch": "第6批",
+        "source": "聚宽(2023-2025)",
+        "content": "B6-01~B6-44已收口，小市值多因子、ETF轮动主线、RSRS改进",
+        "has_file": true
+      },
+      {
+        "batch": "第7批",
+        "source": "量化交易课程",
+        "content": "大模型量化AI应用实战、vnpy框架、双均线策略、CTA开发流程",
+        "has_file": true
+      },
+      {
+        "batch": "第8批",
+        "source": "量化交易课程",
+        "content": "量化投资优势、策略生成、避免过度优化、回测可信度、闪链策略",
+        "has_file": true
+      },
+      {
+        "batch": "第9批",
+        "source": "聚宽(2024-2025)",
+        "content": "2024-2025最新策略，与第6批合并组成2023-2025序列",
+        "status": "并发处理中"
+      },
+      {
+        "batch": "第10批",
+        "source": "聚宽(2024-2025)",
+        "content": "与第9批一并投喂，存在重复和排序问题",
+        "status": "并发处理中"
+      }
+    ],
+    "juqian_strategy_families": {
+      "total_count": "约600条(2020-2025)",
+      "mother_prototypes": [
+        {
+          "name": "小市值多因子",
+          "strategy_count": "15+条",
+          "representative": "B6-01~B6-44",
+          "status": "稳定"
+        },
+        {
+          "name": "ETF轮动/ETF+RSRS",
+          "strategy_count": "多头",
+          "representative": "宽基动量轮动+风控空仓",
+          "status": "核心"
+        },
+        {
+          "name": "短线情绪(打板/竞价/反包/炸板)",
+          "strategy_count": "多头",
+          "status": "A股特色"
+        },
+        {
+          "name": "价值质量/红利/PEG/ROIC",
+          "strategy_count": "多头",
+          "status": "稳定"
+        },
+        {
+          "name": "期指择时/对冲/基差",
+          "strategy_count": "多头",
+          "status": "对冲"
+        },
+        {
+          "name": "宏观/风险溢价",
+          "strategy_count": "少量",
+          "status": "研究级"
+        },
+        {
+          "name": "机器学习多因子",
+          "strategy_count": "5+条",
+          "status": "ML级",
+          "methods": [
+            "XGBoost",
+            "随机森林",
+            "SVR"
+          ]
+        },
+        {
+          "name": "网格/配对/统计套利",
+          "strategy_count": "多头",
+          "status": "套利"
+        }
+      ]
+    },
+    "xiaoxiang_courses": {
+      "intro_core": [
+        "实战型量化投资框架：数据处理→策略开发→回测→模拟→实盘→监控",
+        "网格交易算法设计：间距定量、资金分配、极端行情应对",
+        "因子分类体系：RSI/MACD/分形/加权移动平均等因子工程",
+        "评价指标：年化收益、夏普比率、最大回撤、胜率、盈亏比、换手率",
+        "技术指标程序化：MACD金叉死叉、布林带通道、均线系统",
+        "回测系统搭建：backtest.py + 因子文件(RSI/MACD/Bollinger等)",
+        "聚宽API：get_hist_data()、get_h_data()、attribute_history()",
+        "Tushare数据源：basic接口限制(2016-08-09后数据)"
+      ],
+      "advanced_core": [
+        "套利策略体系：无风险套利、配对交易、统计套利、期限套利、跨期套利、跨品种套利",
+        "商品期货配对交易：螺纹钢与热卷板、MC平台、价差计算、布林带通道",
+        "海龟交易法：唐奇安通道、ATR仓位管理、多品种分散",
+        "均值回复策略：统计验证(收益率排名均值回归)、组合构造与再平衡",
+        "短期市场反转：多空组合构造、时间窗口选择敏感性、波动率头寸管理",
+        "MACD指标工程化：纠葛过滤、背离显著性计算、极值验证、交叉点近似极值",
+        "回测可信度：最低交易次数(200次)/最低70次ETF、临时停牌处理、过拟合检验",
+        "压力测试：爆仓风险评估、隔夜头寸风险、黑天鹅事件、生活哲学(永不爆仓)",
+        "期货基础知识：标准化合约、双向交易、杠杆机制、T+0、每日无负债结算",
+        "持仓限制：单只股票≤流通市值2%、日成交量≤该股票成交量10%"
+      ]
+    },
+    "development_framework": {
+      "six_layers_system": [
+        {
+          "layer": "股票池层",
+          "question": "买什么",
+          "components": [
+            "基础排雷(市值/PE/ST)",
+            "行为筛选(超跌/错杀)",
+            "多因子扩展",
+            "再平衡机制"
+          ]
+        },
+        {
+          "layer": "择时层",
+          "question": "什么时候买/卖",
+          "components": [
+            "MACD/均线/RSI",
+            "多周期验证",
+            "资金流确认",
+            "仓位联动"
+          ]
+        },
+        {
+          "layer": "仓位层",
+          "question": "买多少",
+          "components": [
+            "波动率调整",
+            "凯利公式/Kelly",
+            "区域分仓",
+            "加减仓规则"
+          ]
+        },
+        {
+          "layer": "风控层",
+          "question": "错了怎么办",
+          "components": [
+            "单票止损",
+            "组合止损",
+            "熔断机制",
+            "回撤控制规则"
+          ]
+        },
+        {
+          "layer": "验证层",
+          "question": "怎么验证真假",
+          "components": [
+            "年化收益/夏普/最大回撤/胜率/盈亏比",
+            "样本内外测试",
+            "参数敏感性",
+            "压力测试"
+          ]
+        },
+        {
+          "layer": "执行层",
+          "question": "怎么落地不爆炸",
+          "components": [
+            "API对接",
+            "滑点控制",
+            "仓位执行",
+            "监控告警"
+          ]
+        }
+      ],
+      "data_sources": [
+        "AKShare(免费)",
+        "Tushare Pro(¥200/年)",
+        "聚宽JoinQuant(数百因子)",
+        "BaoStock(免费)",
+        "东方财富API(受限)",
+        "万得(专业)"
+      ],
+      "best_practice_sites": [
+        "雪球",
+        "理想国",
+        "集思录",
+        "聚宽社区",
+        "东方财富股吧",
+        "问财",
+        "淘股吧",
+        "同花顺"
+      ],
+      "development_bible": "丘总量化交易开发手册V3.0(9大章节：核心理念/6阶段流程/选股/择时/仓位/回测/实盘/进化/风险管理)"
+    },
+    "deliverables": {
+      "master_index": {
+        "file": "reports/v2_total_table/2020_2025_a_share_strategy_master_index.md",
+        "type": "总索引表",
+        "status": "第一版完成，需统一粒度(1/4/5需下钻)",
+        "csv": "reports/v2_total_table/2020_2025_a_share_strategy_master_index.csv"
+      },
+      "master_thought": {
+        "file": "reports/v2_total_table/2020_2025_a_share_quant_development_master_thought_course_x_600_jq_fusion.md",
+        "type": "开发总思路",
+        "description": "课程层×600条聚宽策略融合版"
+      },
+      "backtest_schedule": {
+        "file": "reports/v2_total_table/2020_2025_a_share_first_round_standardized_backtest_schedule_v1.md",
+        "type": "回测排期表",
+        "description": "第一轮标准化回测排期"
+      },
+      "backtest_template": {
+        "file": "reports/v2_total_table/2020_2025_a_share_standardized_backtest_template_spec_v1.md",
+        "type": "回测模板",
+        "description": "标准化回测模板规范"
+      },
+      "paper_portfolio": {
+        "file": "reports/v2_total_table/2020_2025_a_share_paper_portfolio_tracking_framework_v1.md",
+        "type": "纸上组合",
+        "description": "纸上组合跟踪框架"
+      }
+    }
+  },
+  "crypto_warzone": {
+    "section_info": "加密战区：熊猫交易学社15批课程 + 执行卡体系 + 囤币策略 + 资金费率套利",
+    "panda_academy_batches": {
+      "batch1_cognition": {
+        "title": "认知篇",
+        "files": "7个视频",
+        "core_principles": [
+          "敬畏市场——市场永远是对的",
+          "拒绝侥幸心理——每次交易都要有依据",
+          "资金管理先于交易技术",
+          "止损是系统行为不是情绪行为",
+          "交易者人格建设是收益曲线的一部分",
+          "道法术器是全部课程的总框架"
+        ],
+        "levels": [
+          "道:方向原则",
+          "法:方法路径",
+          "术:效率技巧",
+          "器:工具指标"
+        ],
+        "trader_growth_stages": [
+          "初战告捷(新手红利)",
+          "市场无情(第一次被打)",
+          "苦练技术(指标越学越乱)",
+          "迷惘轮回(80%人放弃)",
+          "技高一筹(进入20%)",
+          "有舍有得(化繁为简)",
+          "浴火重生(无招胜有招)",
+          "道法自然",
+          "功德圆满"
+        ],
+        "risk_rules": "10日涨幅异常、单日阳线超历史常态、情绪扩散快于结构确认时进入极端波动警戒模式"
+      },
+      "batch2_k_line_12": {
+        "title": "12金K篇",
+        "core_knowledge": [
+          "K线是多空博弈结果、情绪压缩表达、位置与力量的结合体",
+          "金K不能单独使用，需结合其他技术指标(布林带/MACD/RSI)",
+          "交易系统需多信号验证——6维度评分达60分以上才进场",
+          "适用于所有时间周期，但1分钟图仅用于找信号",
+          "金K是入场信号而非理由，必须优先考虑三要素(止盈/止损/盈亏比)"
+        ],
+        "key_patterns": [
+          "十字星",
+          "反转金K",
+          "进攻金K",
+          "一阳穿三",
+          "墓碑线/蜻蜓线"
+        ],
+        "principles": "非圣杯、组合验证、周期适用、信号定位"
+      },
+      "batch3_morphology": {
+        "title": "形态篇",
+        "core_knowledge": [
+          "重要性排序: K线 > 形态 > 指标",
+          "K线反映当下市场情绪结果，形态展现情绪演变过程",
+          "二者都是市场情绪的可视化表达",
+          "看到K线时价格已成既成事实，形态有更强预测性"
+        ]
+      },
+      "batch4_indicators": {
+        "title": "指标篇(MACD/布林带)",
+        "core_knowledge": [
+          "MACD本质是价格的低通滤波器组合",
+          "经典参数12/26/9——不可机械套用传统金叉死叉信号",
+          "布林带通道：需确认上下轨都得到两次以上支撑验证",
+          "MACD纠葛过滤：解决DIF与DEA纠缠导致的信号闪烁",
+          "背离显著性计算：量化背离强度",
+          "MACD底背离在15分钟线表现最好"
+        ],
+        "python_implementation": "使用pandas.ewm()实现指数加权"
+      },
+      "batch5_naked_k": {
+        "title": "裸K篇(价格行为)",
+        "core_modules": [
+          "趋势判断：大周期定方向、小周期找入场",
+          "回调分析：<3次初中期，≥3次警惕反转",
+          "关键位识别：水平位/形态颈线/波浪理论节点",
+          "信号过滤：突破幅度>3%、量能配合等5个加分条件",
+          "标准反转四步验证：破线→均线缺口→测试前高→确认反转"
+        ],
+        "system_slp": [
+          "Step1:分辨趋势(1-2种确认方法即可)",
+          "Step2:定位关键位(支撑/压力/形态测算位)",
+          "Step3:寻找入场信号(Pinbar/吞没等形态配合量能)"
+        ],
+        "trading_rules": "仓位建议≤3个标的/5倍杠杆、止损策略(移动止损+分批)、严禁逆势交易"
+      },
+      "batch6_psychology": {
+        "title": "心理篇",
+        "cognitive_biases": [
+          "代表性启发式偏差：将表象当概率，只看局部形态忽视整体趋势",
+          "代表性偏差与情绪的关系：非理智、非系统、非规则",
+          "赌场运营启示：45%胜率+1:2盈亏比即可稳定盈利",
+          "统计独立性：每笔交易盈亏随机分布，连续止盈/止损都正常"
+        ],
+        "market_participants": [
+          "短线交易者(3-10%亏损)",
+          "中线交易者(10-20%)",
+          "长线套牢盘(极度恐慌)",
+          "庄家"
+        ],
+        "supply_demand": "供大于求时价格下跌，供小于求时价格上涨"
+      },
+      "batch7_psychology_2": {
+        "title": "庄家思维/建仓出货",
+        "structure": [
+          "认知层：庄家是谁、怎么分类、怎么运作",
+          "盘口层：对敲/挂单/成交/试盘/洗盘/拉升/出货",
+          "计算层：建仓成本/持仓量/利润率/筹码锁定/换手率",
+          "执行层：假突破/拉尾盘/多空陷阱/区间/趋势/止损止盈"
+        ],
+        "theories": [
+          "威科夫量价理论",
+          "量价行为分析",
+          "建仓-试盘-洗盘-拉升-出货完整周期"
+        ]
+      },
+      "batch8_system": {
+        "title": "系统篇/仓位管理",
+        "rules": {
+          "3331原则": "3分持股+3分波段备用+3分应急金+1分高风险投机",
+          "key_principles": "先进先出、敢于止盈止损、情绪控制、学会空仓、控制回撤是核心"
+        },
+        "turtle_system": {
+          "entry": "唐奇安通道突破",
+          "stop": "ATR-based止损",
+          "position": "基于波动率的头寸缩放",
+          "diversification": "多品种/低相关/平滑曲线"
+        }
+      },
+      "batch9_advanced": {
+        "title": "提升篇/波浪理论",
+        "core": "交易组合拳、裸K配合量价、逐K线分析、EMA均线组(21/55/144)",
+        "elliott_wave": [
+          "浪B长度≥浪A的0.618倍",
+          "浪C不超过2.618倍浪A",
+          "区分平台型与锯齿形",
+          "FB/SB入场信号+金K线"
+        ]
+      },
+      "batch10_harmonic": {
+        "title": "谐波篇",
+        "patterns": [
+          "AB=CD",
+          "加特利222",
+          "蝙蝠",
+          "蝴蝶",
+          "鲨鱼",
+          "深海蟹"
+        ],
+        "core": "通过XABC四点确定D点挂单交易，反转区(PRZ)识别",
+        "retracements": [
+          "0.618/0.786/0.886(XA段)",
+          "1.27/1.618(BC段扩展)"
+        ]
+      },
+      "batch11_chanlun": {
+        "title": "缠论篇",
+        "chain": "K线预处理→分型→笔→线段→中枢→走势类型→背驰→买卖点→执行系统",
+        "core": [
+          "逻辑链条：K线合并→分型识别→笔→线段→中枢→走势类型→背驰→买卖点",
+          "走势分类：趋势(≥2个中枢) vs 盘整(1个中枢)",
+          "级别嵌套：15分钟下跌趋势嵌套在4小时上涨趋势中",
+          "三类买卖点：一二三买/卖点",
+          "背驰判断：趋势力度衰竭信号"
+        ]
+      },
+      "batch12_orderflow": {
+        "title": "订单流篇",
+        "core": [
+          "SMC订单流：威科夫理论延伸，聚焦机构行为逻辑和流动性分析",
+          "成本回收机制：机构通过主动被套实现流动性收集",
+          "BMS策略：单向做多+50%回撤位(OTE)卖出",
+          "区域限制原则：只在折价区做多，结构转变(SMS)时调整"
+        ]
+      },
+      "batch15_training": {
+        "title": "集训提升篇",
+        "success_cases": "小猪(8万→月赚20万)、老唐(不到一月回本)、小贾(道氏稳定)、齐宇(月50%)、KA(20U→160U)",
+        "failure_reasons": "FOMO情绪、频繁盯盘过度交易、资金管理失控、缺乏系统"
+      }
+    },
+    "execution_cards_delivered": [
+      "12金K标准定义卡 V1(多批)",
+      "形态篇核心结构卡 V1",
+      "MACD指标执行卡 V1",
+      "指标篇执行映射表 V1",
+      "布林带辅助使用清单 V1",
+      "心理篇核心认知偏差清单 V1",
+      "心理篇执行映射表 V1",
+      "庄家思维核心认知卡 V1",
+      "庄家行为执行映射表 V1",
+      "价格行为执行卡 V1",
+      "交易区间作战卡 V1",
+      "波浪结构识别卡 V1",
+      "谐波反转区执行卡 V1",
+      "缠论结构语言总卡 V1",
+      "加密战区主交易系统 V1",
+      "加密战区实盘风控规则 V1",
+      "加密战区认证与升级规则 V1"
+    ],
+    "accumulation_strategy": {
+      "name": "BTC/ETH囤币五层引擎",
+      "layers": [
+        {
+          "level": "底层",
+          "name": "智能定投DCA",
+          "rule": "恐惧指数越低买入越多(FGI=11时×3定投)"
+        },
+        {
+          "level": "中层",
+          "name": "币本位费率套利",
+          "yield": "年化BTC约21.9%",
+          "note": "核心引擎"
+        },
+        {
+          "level": "上层",
+          "name": "趋势择时增强",
+          "rule": "牛加杠杆/熊做空赚币"
+        }
+      ],
+      "u_vs_coin": {
+        "u_base": "赚USDT，多空双向均可",
+        "coin_base": "赚BTC/ETH本身，做多时双重收益(BTC数量+BTC升值)"
+      }
+    },
+    "funding_rate_arbitrage": {
+      "description": "永续合约资金费率套利，Delta中性",
+      "besta": "年化15-30%",
+      "exchanges": [
+        "Binance",
+        "OKX",
+        "Bybit"
+      ]
+    },
+    "deliverables_high_level": [
+      "reports/v2_total_table/crypto_development_practical_experience_summary_v1.md",
+      "reports/v2_total_table/crypto_strategy_master_index_high_level_reframed.md",
+      "reports/v2_total_table/crypto_strategy_mother_tree_high_level.md",
+      "reports/v2_total_table/crypto_strategy_status_board_high_level.md",
+      "reports/v2_total_table/crypto_priority_build_roadmap_high_level.md"
+    ]
+  },
+  "polymarket_warzone": {
+    "section_info": "预测市场：52周专家计划 + 信息套利 + 概率偏差扫描 + 事件交易框架",
+    "core_cognition": "不做一次性方向赌注，而是做一个可长期自行运转的稳定系统",
+    "strategies": [
+      {
+        "name": "数学套利(YES+NO<1)",
+        "risk": "无风险",
+        "desc": "捕捉恐慌时YES+NO<1的定价错误，同时买入必赚差价"
+      },
+      {
+        "name": "高概率债券策略",
+        "risk": "低风险",
+        "desc": "买入结果基本确定的合约(概率>95%)"
+      },
+      {
+        "name": "信息优势套利",
+        "risk": "中高风险",
+        "desc": "领域专精带来的信息Edge，在信息发布前布局"
+      },
+      {
+        "name": "恐慌错杀捡漏",
+        "risk": "中风险",
+        "desc": "市场恐慌时优质概率被低估的机会"
+      },
+      {
+        "name": "事件驱动交易",
+        "risk": "中风险",
+        "desc": "Fed/NFP/CPI等事件提前布局+事件后快速平仓"
+      }
+    ],
+    "52_week_plan": {
+      "start_date": "2026-03-24",
+      "total_fields": 52,
+      "quarters": {
+        "Q1": [
+          "Fed/FOMC",
+          "中东",
+          "NBA",
+          "BTC",
+          "关税",
+          "CPI",
+          "AI",
+          "国会",
+          "欧冠"
+        ],
+        "Q2": [
+          "NFP",
+          "俄乌",
+          "NFL选秀",
+          "FDA",
+          "中国",
+          "NBA决赛",
+          "OPEC",
+          "选举",
+          "ETH",
+          "气候"
+        ],
+        "Q3": [
+          "财报",
+          "最高法院",
+          "网球",
+          "朝鲜",
+          "半导体",
+          "NFL",
+          "GDP",
+          "台海",
+          "F1",
+          "参院"
+        ],
+        "Q4": [
+          "央行",
+          "公卫",
+          "MLB",
+          "众院",
+          "诺奖",
+          "伊朗核",
+          "选举夜",
+          "外汇",
+          "娱乐",
+          "消费"
+        ],
+        "Q5": [
+          "COP",
+          "印度",
+          "加密",
+          "经济",
+          "年度人物",
+          "NFL季后",
+          "拉美",
+          "EV",
+          "奥斯卡",
+          "超级碗",
+          "非洲",
+          "太空",
+          "复盘"
+        ]
+      },
+      "study_intensity": "每天3领域并行、每30分钟汇报、以实战化为目的的学习",
+      "expert_cards_delivered": [
+        "Fed专家卡V1",
+        "NFP专家卡V1",
+        "CPI专家卡V1",
+        "OPEC专家卡V1",
+        "操作卡V1",
+        "AI专家卡V1",
+        "BTC专家卡V1",
+        "ETH专家卡V1",
+        "中东专家卡V1",
+        "俄乌专家卡V1"
+      ]
+    },
+    "deliverables": [
+      "Polymarket核心认知统一稿V1",
+      "Polymarket策略总索引(高维版)",
+      "Polymarket策略母树(高维版)",
+      "Polymarket策略状态板(高维版)",
+      "Polymarket实战推进规划",
+      "Polymarket交易日志模板",
+      "Polymarket条款核对表(resolution_checklist)",
+      "Polymarket候选池框架",
+      "首批Polymarket具体市场清单V1",
+      "Polymarket 24小时三领域专家进化作战令",
+      "天枢监督表与午夜验收表",
+      "Fed/NFP/CPI交易决策卡V1",
+      "实盘准入观察清单V1",
+      "中东/俄乌/OPEC任务板和专家卡",
+      "BTC/ETH/AI任务板和专家卡"
+    ],
+    "risk_rules": "主钱包绝不碰、热钱包隔离、安全防线硬编码、单市场≤20%、单日止损5%",
+    "data_tools": [
+      "PolyTrack",
+      "Polywhaler",
+      "PolymarketBigBets",
+      "PolymarketAnalytics",
+      "Unusual Whales"
+    ]
+  },
+  "cross_market_philosophy": {
+    "section_info": "跨市场交易哲学底座 + 三账本体系 + 风险框架",
+    "unified_command": "A股、加密、Polymarket不是三个并列项目，而是一个跨市场Alpha帝国的三大战区。它们在市场对象上不同，在Alpha语言、风险法典、执行中台与组合宪法上必须统一。",
+    "alpha_sources": {
+      "a_stock": "厚土——基本面驱动+量化因子+事件驱动",
+      "crypto": "高速战场——连续交易+结构套利+carry+微观结构",
+      "polymarket": "认知高地——概率+规则+条件事件+结构错配"
+    },
+    "three_ledgers": {
+      "name": "三账本进化系统",
+      "accounts": [
+        {
+          "type": "回测账本",
+          "initial_capital": "虚拟",
+          "status": "已建立",
+          "purpose": "策略验证/参数优化/历史表现"
+        },
+        {
+          "type": "虚拟盘(纸上盘)",
+          "initial_capital": "100万(20/40/40分配)",
+          "status": "running",
+          "purpose": "执行训练/信号验证/纪律培养",
+          "mapping": [
+            {
+              "account": "华泰映射A股虚拟盘",
+              "weight": "20万"
+            },
+            {
+              "account": "Bitget映射加密虚拟盘",
+              "weight": "40万"
+            },
+            {
+              "account": "Polymarket虚拟盘",
+              "weight": "40万"
+            }
+          ]
+        },
+        {
+          "type": "实盘账本",
+          "initial_capital": "待资金到位",
+          "status": "待命",
+          "purpose": "真实执行/风控验证/资金管理"
+        }
+      ],
+      "upgrade_flow": "回测→虚拟盘→实盘(逐级准入)"
+    },
+    "risk_framework": {
+      "single_strategy_cap": "≤总资金20%",
+      "daily_stop": "单日亏损>5%时熔断",
+      "total_drawdown": "≤25%",
+      "sharpe_minimum": ">1.5",
+      "position_sizing": "凯利公式1/4, 波动率归一化仓位管理",
+      "fiery_stop": "安全防线硬编码、主钱包不碰、热钱包隔离"
+    },
+    "trading_principles": [
+      "不预测市场，等待市场发出信号后再行动",
+      "概率思维——将交易视为数字游戏，接受连续亏损",
+      "永远做数学套利者而非赌徒",
+      "先风险后收益——止损写在底层代码第一行",
+      "多元低相关策略组合提升夏普",
+      "反脆弱设计——从市场波动中受益",
+      "回测/虚拟盘/实盘三层闭环，经验可传递",
+      "AI时代没有时间观念，有电有算力就持续干活"
+    ]
+  },
+  "deliverable_files_complete": {
+    "note": "以下为聊天记录中提到的所有已产出成果文件路径(在workspace-zhulong仓库中)",
+    "files": [
+      "reports/v2_total_table/2020_2025_a_share_strategy_master_index.md",
+      "reports/v2_total_table/2020_2025_a_share_strategy_master_index.csv",
+      "reports/v2_total_table/2020_2025_a_share_quant_development_master_thought_course_x_600_jq_fusion.md",
+      "reports/v2_total_table/2020_2025_a_share_first_round_standardized_backtest_schedule_v1.md",
+      "reports/v2_total_table/2020_2025_a_share_standardized_backtest_template_spec_v1.md",
+      "reports/v2_total_table/2020_2025_a_share_paper_portfolio_tracking_framework_v1.md",
+      "reports/v2_total_table/crypto_development_practical_experience_summary_v1.md",
+      "reports/v2_total_table/crypto_strategy_master_index_high_level_reframed.md",
+      "reports/v2_total_table/crypto_strategy_mother_tree_high_level.md",
+      "reports/v2_total_table/crypto_strategy_status_board_high_level.md",
+      "reports/v2_total_table/crypto_priority_build_roadmap_high_level.md",
+      "reports/v2_total_table/polymarket_third_theater_high_level_framework.md",
+      "reports/v2_total_table/polymarket_strategy_master_index_high_level.md",
+      "reports/v2_total_table/polymarket_strategy_mother_tree_high_level.md",
+      "reports/v2_total_table/polymarket_strategy_status_board_high_level.md",
+      "reports/v2_total_table/polymarket_live_deployment_practical_plan.md",
+      "reports/v2_total_table/polymarket_trade_log_template.md",
+      "reports/v2_total_table/polymarket_resolution_checklist.md",
+      "reports/v2_total_table/polymarket_candidate_watchlist_framework.md",
+      "reports/v2_total_table/polymarket_core_cognition_unified_v1.md",
+      "reports/v2_total_table/polymarket_three_domain_learning_report_v1.md",
+      "reports/v2_total_table/polymarket_three_domain_trade_decision_cards_v1.md",
+      "reports/v2_total_table/polymarket_market_watchlist_and_live_admission_v1.md",
+      "reports/v2_total_table/first_batch_polymarket_concrete_market_list_v1.md",
+      "reports/v2_total_table/cross_market_trading_philosophy_foundation_draft.md",
+      "reports/v2_total_table/cross_market_alpha_source_map_and_risk_principles_outline.md",
+      "reports/v2_total_table/three_theaters_unified_campaign_master_outline.md",
+      "reports/v2_total_table/three_ledgers_training_system.md",
+      "reports/v2_total_table/backtest_ledger_v1.md",
+      "reports/v2_total_table/paper_trading_ledger_v1.md",
+      "reports/v2_total_table/live_trading_ledger_v1.md",
+      "reports/v2_total_table/first_batch_strategy_status_board_v1.md",
+      "reports/v2_total_table/three_theaters_first_batch_strategy_combat_order.md",
+      "reports/v2_total_table/three_account_operating_mapping.md",
+      "reports/v2_total_table/weekly_practical_rollout_roadmap.md",
+      "reports/v2_total_table/烛龙-24小时三领域专家进化作战令-2026-03-24.md",
+      "reports/v2_total_table/天枢-烛龙监督表与午夜验收表-2026-03-24.md",
+      "reports/v2_total_table/opec_expert_card_v1.md",
+      "reports/v2_total_table/middleeast_ukraine_do_not_touch_v1.md",
+      "reports/v2_total_table/middleeast_expert_card_v1.md",
+      "reports/v2_total_table/russia_ukraine_expert_card_v1.md",
+      "reports/v2_total_table/btc_eth_ai_expertization_mission_board_v1.md",
+      "reports/v2_total_table/btc_expert_card_v1.md",
+      "reports/v2_total_table/eth_expert_card_v1.md",
+      "reports/v2_total_table/ai_expert_card_v1.md",
+      "reports/v2_total_table/zhulong_three_theaters_strategy_master_outline_v1.md",
+      "reports/v2_total_table/multi_subagent_trading_system_design_v1.md",
+      "reports/v2_total_table/2023_2025_batch8_course_summary.md",
+      "reports/quant_strategy_development_board.md",
+      "reports/five-market-simulation-framework.md",
+      "reports/five_market_registry.json"
+    ]
+  }
+}

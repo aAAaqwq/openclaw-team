@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "lastGood": {
+    "deepseek": "deepseek:default",
+    "yiyongai": "yiyongai:default"
+  },
+  "usageStats": {
+    "deepseek:default": {
+      "errorCount": 0,
+      "lastUsed": 1777985818326
+    },
+    "yiyongai:default": {
+      "errorCount": 1,
+      "lastUsed": 1777743523209,
+      "failureCounts": {
+        "format": 1
+      },
+      "lastFailureAt": 1777746638127,
+      "cooldownUntil": 1777746668127,
+      "cooldownReason": "format"
+    }
+  }
+}

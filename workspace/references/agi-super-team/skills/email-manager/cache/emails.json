@@ -1,0 +1,98 @@
+{
+  "timestamp": "2026-02-28T08:33:55.228784",
+  "emails": {
+    "QQ邮箱": [
+      {
+        "id": "839",
+        "subject": "【阿里云】云安全中心周报",
+        "from": "阿里云 <monitor@monitor.aliyun.com>",
+        "to": "2067089451@qq.com",
+        "date": "Thu, 19 Feb 2026 08:03:21 +0800 (CST)",
+        "body": "",
+        "has_attachment": false
+      },
+      {
+        "id": "840",
+        "subject": "[GitHub] Your GitHub Enterprise trial has ended",
+        "from": "GitHub <support@github.com>",
+        "to": "ArMatrix_admin <2067089451@qq.com>",
+        "date": "Wed, 18 Feb 2026 18:12:34 -0800",
+        "body": "",
+        "has_attachment": false
+      },
+      {
+        "id": "841",
+        "subject": "云安全中心云平台配置安全检查告警通知",
+        "from": "阿里云 <system@notice.aliyun.com>",
+        "to": "2067089451@qq.com",
+        "date": "Thu, 19 Feb 2026 11:41:54 +0800 (CST)",
+        "body": "",
+        "has_attachment": false
+      },
+      {
+        "id": "842",
+        "subject": "【到期预警】阿里云ECS即将到期提醒",
+        "from": "阿里云 <system@notice.aliyun.com>",
+        "to": "2067089451@qq.com",
+        "date": "Thu, 19 Feb 2026 12:04:08 +0800 (CST)",
+        "body": "",
+        "has_attachment": false
+      },
+      {
+        "id": "843",
+        "subject": "Action Required: Cloudinary Account Upgrade",
+        "from": "Cloudinary <support@cloudinary.com>",
+        "to": "2067089451@qq.com",
+        "date": "Thu, 19 Feb 2026 06:48:26 +0000",
+        "body": "",
+        "has_attachment": false
+      },
+      {
+        "id": "863",
+        "subject": "QQ邮箱祝你生日快乐",
+        "from": "\"QQ邮箱管理员\" <admin@qq.com>",
+        "to": "\"=?utf-8?B?MjA2NzA4OTQ1MQ==?=\" <2067089451@qq.com>",
+        "date": "Wed, 13 Oct 2021 09:45:34 +0800",
+        "body": "",
+        "has_attachment": false
+      },
+      {
+        "id": "865",
+        "subject": "΢յĺ룬ҵ΢ͨ",
+        "from": "\"腾讯企业微信\" <10000@qq.com>",
+        "to": "",
+        "date": "",
+        "body": "",
+        "has_attachment": false
+      },
+      {
+        "id": "883",
+        "subject": "Pruna-V is live: the fastest video model in its class",
+        "from": "Replicate <team@replicate.email>",
+        "to": "2067089451@qq.com",
+        "date": "Fri, 27 Feb 2026 05:04:03 +0000",
+        "body": "",
+        "has_attachment": false
+      },
+      {
+        "id": "884",
+        "subject": "AtCoder Beginner Contest 447 Announcement",
+        "from": "AtCoder System Mail <noreply@atcoder.jp>",
+        "to": "2067089451@qq.com",
+        "date": "Fri, 27 Feb 2026 13:32:40 +0000",
+        "body": "",
+        "has_attachment": false
+      },
+      {
+        "id": "885",
+        "subject": "Firecrawl Updates: Browser Sandbox, Claude Code Plugin & More",
+        "from": "Eric at Firecrawl <eric@firecrawl.dev>",
+        "to": "2067089451@qq.com",
+        "date": "Fri, 27 Feb 2026 17:06:08 +0000",
+        "body": "",
+        "has_attachment": false
+      }
+    ],
+    "Gmail": []
+  }
+}

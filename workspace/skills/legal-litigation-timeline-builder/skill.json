@@ -1,0 +1,28 @@
+{
+  "name": "Legal Litigation Timeline Builder",
+  "slug": "legal-litigation-timeline-builder",
+  "version": "1.0.0",
+  "description": "Organizes litigation facts, procedural events, deadlines, and evidence references into a coherent case timeline.",
+  "author": "Pearl Team (OpenClaw)",
+  "tags": [
+    "legal",
+    "litigation",
+    "timeline",
+    "case-management",
+    "descriptive"
+  ],
+  "trigger_keywords": [
+    "litigation timeline",
+    "case chronology",
+    "fact chronology",
+    "court deadlines",
+    "legal-litigation-timeline-builder",
+    "legal litigation timeline builder"
+  ],
+  "language": "en",
+  "outputs": "markdown",
+  "requires_api": false,
+  "readiness": "stable",
+  "type": "descriptive",
+  "legal_disclaimer": "Informational workflow support only; not legal advice."
+}

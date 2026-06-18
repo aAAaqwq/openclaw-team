@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "mediaclaw": {
+      "version": "1.0.3",
+      "installedAt": 1777947947264
+    },
+    "browser-automation": {
+      "version": "1.0.1",
+      "installedAt": 1777980950047
+    }
+  }
+}

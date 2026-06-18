@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "lastGood": {
+    "zai": "zai:default",
+    "yiyongai": "yiyongai:default",
+    "minimax": "minimax:cn",
+    "deepseek": "deepseek:default"
+  },
+  "usageStats": {
+    "zai:default": {
+      "errorCount": 0,
+      "lastUsed": 1777247432138
+    },
+    "yiyongai:default": {
+      "errorCount": 1,
+      "lastFailureAt": 1777602287631,
+      "lastUsed": 1777602092588,
+      "failureCounts": {
+        "format": 1
+      },
+      "cooldownUntil": 1777602317631,
+      "cooldownReason": "format"
+    },
+    "minimax:cn": {
+      "errorCount": 0,
+      "lastUsed": 1777599196496
+    },
+    "deepseek:default": {
+      "errorCount": 0,
+      "lastUsed": 1777692240730
+    }
+  }
+}

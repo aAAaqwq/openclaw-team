@@ -1,0 +1,21 @@
+{
+  "check_interval": {
+    "high_priority": "1h",
+    "normal": "6h",
+    "low": "24h"
+  },
+  "alert_threshold": {
+    "confidence": 60,
+    "capital_change_percent": 10
+  },
+  "scraper": {
+    "delay_min": 3,
+    "delay_max": 10,
+    "max_requests_per_hour": 100
+  },
+  "notification": {
+    "telegram": true,
+    "feishu": false
+  },
+  "data_sources": ["tianyancha", "qcc"]
+}
